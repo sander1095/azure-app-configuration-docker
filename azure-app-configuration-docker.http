@@ -1,0 +1,6 @@
+@azure_app_configuration_docker_HostAddress = http://localhost:5253
+
+GET {{azure_app_configuration_docker_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
